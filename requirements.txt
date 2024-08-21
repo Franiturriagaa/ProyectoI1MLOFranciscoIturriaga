@@ -4,3 +4,5 @@ pydantic
 typing
 scikit-learn
 uvicorn
+pyarrow
+fastparquet
