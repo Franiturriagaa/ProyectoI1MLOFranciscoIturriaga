@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # Cargo el archivo Parquet en un DataFrame
-df = pd.read_parquet('dataset_transformado.parquet')
+df = pd.read_parquet('Datasets/dataset_transformado.parquet')
 # Limpio algunos datos
 df = df.dropna(subset=['title', 'vote_average'])
 df['vote_average'] = df['vote_average'].fillna(0)
